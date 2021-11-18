@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>horse</title>
+    <link rel="stylesheet" href="horse.css" type="text/css">
+</head>
+<body>
+    <header>
+        <p onclick="playSound()">This is a black horse!</p>
+    </header>
+    <div id="horse-gallery" class="grid">
+        <div id="aside-container">
+        <h2>THE HORSE FAQ</h2>
+        <aside class= "grid-item">These horses are very fine and fair.<br>
+             They are also wild and cruel.<br>
+             The Only Way I would ever be caught riding one of these<br>
+             fine stallions/steeds is if I was more brave than Hercules<br>
+             In closing I would like to think that this site has made <span id="you" style="color: red"><em>YOU</em></span><br>
+             More horse conscientious and have a beautiful day!
+            </aside>
+        </div>
+        <img class = "grid-item" id = "horse-pic" src="https://wall-murals.eu/image/cache/catalog/1202-fototapeti/439/1202-439-F3-new-fototapeti-cheren-kon-photomural-black-horse-550x550h.jpg" alt="">
+    <img class = "grid-item" src="./resources/horserunning.jpg" alt="horse running">
+    </div>
+    
+    
+    <footer>
+        <audio id="horse-audio" src="resources/horse-audio.m4a"></audio>
+        <audio id="horse-ending" src="resources/the-end.m4a"></audio>
+        <p onclick="playEndingSound()" style="text-align: center;">The End.</p>
+       </footer>
+       </body>
+       <script src="script.js"></script>
+</html>

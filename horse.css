@@ -1,0 +1,52 @@
+body{
+    padding: 5px;
+    transition-property: background-image;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}
+p{
+    color:red;
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+   
+}
+header{
+    border: solid black 3px;
+    background-color: burlywood;
+}
+#horse-pic{
+    height: 500px;
+    width: 500px;
+}
+#horse-gallery{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.grid{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item{
+    border: solid white 3px;
+}
+aside{
+    line-height: 36px;
+    padding: 3px;
+    border: black solid 5px !important ;
+}
+aside span{
+    text-decoration: chartreuse underline;
+}
+footer{
+    height: 150px;
+    border: black solid 3px;
+    background-color: burlywood;
+}
+
+footer p{
+    color: steelblue;
+}
